@@ -42,6 +42,7 @@ class Pilha:
     def tamanho_atual_pilha(self)->int:
         """
         Retorna o tamanho atual da pilha.
+        Aqui eu vou gerar outro conflitão bem maior
         Esta descrição vai gerar um conflito e vou inserir um bug
 
         Retorno:
@@ -49,7 +50,7 @@ class Pilha:
         int:
             Tamanho atual da pilha.
         """
-        return self.tamanho_atual + 1
+        return self.tamanho_atual + 3
 
     def tamanho_maximo(self) -> int:
         """
